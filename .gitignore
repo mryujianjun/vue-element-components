@@ -1,7 +1,10 @@
 .DS_Store
 node_modules
 /dist
-
+/iui-docs
+/mryujianjun.github.io
+/types1
+/src2
 # local env files
 .env.local
 .env.*.local

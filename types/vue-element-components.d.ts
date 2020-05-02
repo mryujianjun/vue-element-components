@@ -1,8 +1,8 @@
-import {IMenu as Menu} from './menu';
-import {ITableList as TableList} from './table-list';
+import {ITableList as TableList} from './table-list'
+import {IMenu as Menu} from './menu'
 
-export const version: string;
-
-export class IMenu extends Menu {}
-
+/** ITableList Component */
 export class ITableList extends TableList {}
+
+/** IMenu Component */
+export class IMenu extends Menu {}

@@ -2,28 +2,35 @@
   "name": "vue-element-components",
   "version": "1.0.0",
   "description": "基于Element UI的中台组件库",
-  "main": "src/index.js",
+  "peerDependencies": {
+    "element-ui": "^2.13.1",
+    "vue": "^2.6.11"
+  },
   "files": [
     "src",
     "packages",
     "types"
   ],
-  "_entry": "lib/index.js",
-  "_output": "lib/",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "unpkg": "dist/vue-element-components.min.js",
   "types": "types",
   "typings": "types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "",
-    "build": "rollup -c rollup.config.js",
-    "build-entry": "node build/build.js",
-    "dev-entry": "node build/dev.js"
+    "dev": "vuepress dev ./examples",
+    "docs:dev": "vuepress dev ./examples",
+    "docs:build": "vuepress build ./examples"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "element-ui": "^2.13.1",
-    "vue": "^2.6.11"
+    "file-save": "^0.2.0",
+    "json-templater": "^1.2.0",
+    "uppercamelcase": "^3.0.0",
+    "vue": "^2.6.11",
+    "vuepress": "^1.4.1"
   }
 }

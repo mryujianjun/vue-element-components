@@ -1,0 +1,4 @@
+{
+  "table-list": "./src/components/table-list/index.js",
+  "menu": "./src/components/menu/index.js"
+}

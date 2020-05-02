@@ -1,8 +1,8 @@
-import Menu from './src/IMenu.vue';
+import IMenu from './src/IMenu.vue';
 
 /* istanbul ignore next */
-Menu.install = function (Vue) {
-	Vue.component(Menu.name, Menu);
+IMenu.install = function(Vue) {
+  Vue.component(IMenu.name, IMenu);
 };
 
-export default Menu;
+export default IMenu;

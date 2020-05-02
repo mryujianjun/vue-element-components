@@ -1,8 +1,8 @@
-import TableList from './src/ITableList.vue';
+import ITableList from './src/ITableList.vue';
 
 /* istanbul ignore next */
-TableList.install = function (Vue) {
-	Vue.component(TableList.name, TableList);
+ITableList.install = function(Vue) {
+	Vue.component(ITableList.name, ITableList);
 };
 
-export default TableList;
+export default ITableList;
