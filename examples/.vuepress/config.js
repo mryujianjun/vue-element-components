@@ -6,8 +6,8 @@ const docPath = path.resolve(__dirname, `../${docsDir}`);
 const files = fs.readdirSync(docPath);
 console.log();
 module.exports = {
-	base: process.env.NODE_ENV === 'production' ? '/iui-docs/' : '/',
-	dest: path.resolve(__dirname, '../../iui-docs'),
+	base: process.env.NODE_ENV === 'production' ? '/iui/' : '/',
+	dest: path.resolve(__dirname, '../../iui'),
 	title: 'Vue Element Components',
 	description: '一个基于Element UI的中台组件库',
 	// 注入到当前页面的 HTML <head> 中的标签
@@ -40,7 +40,7 @@ module.exports = {
 		// 假如你的文档仓库和项目本身不在一个仓库：
 		docsRepo: 'mryujianjun/vue-element-components',
 		// 假如文档不是放在仓库的根目录下：
-		docsDir: 'example/docs',
+		docsDir: 'examples',
 		// 假如文档放在一个特定的分支下：
 		docsBranch: 'master',
 		// 默认是 false, 设置为 true 来启用

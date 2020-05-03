@@ -1,6 +1,6 @@
 {
   "name": "vue-element-components",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "基于Element UI的中台组件库",
   "peerDependencies": {
     "element-ui": "^2.13.1",
@@ -8,21 +8,17 @@
   },
   "files": [
     "src",
-    "packages",
     "types"
   ],
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "module": "src/index.js",
-  "unpkg": "dist/vue-element-components.min.js",
   "types": "types",
   "typings": "types/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev ./examples",
     "docs:dev": "vuepress dev ./examples",
     "docs:build": "vuepress build ./examples"
   },
-  "author": "",
+  "author": "mryujianjun.cn@gmail.com",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
@@ -32,5 +28,17 @@
     "uppercamelcase": "^3.0.0",
     "vue": "^2.6.11",
     "vuepress": "^1.4.1"
-  }
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/mryujianjun/vue-element-components.git"
+  },
+  "homepage": "https://mryujianjun.cn/iui/",
+  "keywords": [
+    "element-ui",
+    "vue",
+    "vue-admin",
+    "vue-element-components",
+    "components"
+  ]
 }

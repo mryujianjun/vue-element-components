@@ -6,7 +6,7 @@ set -e
 # 生成静态文件
 npm run docs:build
 
-dir=iui-docs
+dir=iui
 repository=mryujianjun.github.io
 repositoryAddr=https://github.com/mryujianjun/mryujianjun.github.io.git
 target=${repository}/${dir}
@@ -22,7 +22,7 @@ fi
 if test -e ${target}
 then
     rm -r ${target}
-    echo ${target}' deleted it!!!'
+    echo ${target}' is deleted!!!'
 fi
 mv ${dir} ${repository}
 
